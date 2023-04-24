@@ -1,0 +1,31 @@
+.ProductList{
+    flex: 4;
+}
+.actionButton{
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: rgb(3, 121, 81);
+    color: rgb(252, 250, 250);
+    cursor: pointer;
+   
+    
+}
+.deleteItem{
+
+    color: red;
+    cursor: pointer;
+}
+.productListImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit:fill;
+    margin-right: 15px;
+    
+}
+.productListItem{
+    display: flex;
+    align-items: center;
+}
