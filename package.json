@@ -1,5 +1,5 @@
 {
-
+ "homepage": "http://Priyanshu21singh.github.io/admindashboard-react",
  
   "name": "dashboard-app",
 
@@ -44,7 +44,8 @@
   "scripts": {
 
     "start": "react-scripts start",
-    
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
 
     "build": "react-scripts build",
 
